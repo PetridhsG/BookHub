@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Frontend.Customer.SearchActivity.SearchActivity">
+
+
+    <TextView
+        android:id="@+id/search_price_text"
+        android:layout_width="88dp"
+        android:layout_height="29dp"
+        android:fontFamily="@font/nexa"
+        android:text="Price"
+        android:textColor="#E67B40"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.601" />
+
+    <TextView
+        android:id="@+id/search_area_text"
+        android:layout_width="79dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="39dp"
+        android:fontFamily="@font/nexa"
+        android:text="Area"
+        android:textColor="#E67B40"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choose_filters_text"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <Spinner
+        android:id="@+id/area_spinner"
+        android:layout_width="147dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/nexa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choose_filters_text"
+        app:layout_constraintVertical_bias="0.015" />
+
+    <TextView
+        android:id="@+id/search_from_date_text"
+        android:layout_width="111dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/nexa"
+        android:text="None"
+        android:textColor="#E8E8E8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279" />
+
+    <TextView
+        android:id="@+id/noOfPeople_text"
+        android:layout_width="122dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/nexa"
+        android:text="Number of\nPeople"
+
+        android:textColor="#E67B40"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <TextView
+        android:id="@+id/search_date_text"
+        android:layout_width="81dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/nexa"
+        android:text="Date"
+        android:textColor="#E67B40"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/search_to_date_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_from_date_button"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <Button
+        android:id="@+id/search_to_date_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#6993BF"
+        android:fontFamily="@font/coolvetica_condensed"
+        android:text="To"
+        android:textColor="#E8E8E8"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.353" />
+
+    <TextView
+        android:id="@+id/search_to_date_text"
+        android:layout_width="111dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/nexa"
+        android:text="None"
+        android:textColor="#E8E8E8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.364" />
+
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/rating_slider"
+        android:layout_width="247dp"
+        android:layout_height="47dp"
+        android:stepSize="1"
+        android:valueFrom="0"
+        android:valueTo="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.674"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
+
+    <Button
+        android:id="@+id/search_from_date_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#6993BF"
+        android:fontFamily="@font/coolvetica_condensed"
+        android:text="From"
+        android:textColor="#E8E8E8"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269" />
+
+    <TextView
+        android:id="@+id/search_stars"
+        android:layout_width="88dp"
+        android:layout_height="29dp"
+        android:fontFamily="@font/nexa"
+        android:text="Stars"
+        android:textColor="#E67B40"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.726" />
+
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/price_slider"
+        android:layout_width="269dp"
+        android:layout_height="45dp"
+        android:valueFrom="0"
+        android:valueTo="800"
+        app:labelBehavior="withinBounds"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.782"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585"
+        app:values="@array/default_slider_values" />
+
+    <Button
+        android:id="@+id/plus_button"
+        android:layout_width="59dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/coolvetica_condensed"
+        android:text="+"
+        android:textColor="#6993BF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <Button
+        android:id="@+id/minus_button"
+        android:layout_width="59dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/coolvetica_condensed"
+        android:text="-"
+        android:textColor="#6993BF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <TextView
+        android:id="@+id/number_of_people"
+        android:layout_width="80dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/nexa"
+        android:gravity="center"
+        android:text="None"
+        android:textColor="#E8E8E8"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.734"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.469" />
+
+    <TextView
+        android:id="@+id/choose_filters_text"
+        android:layout_width="335dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/coolvetica_condensed"
+        android:gravity="center"
+        android:text="Choose Filters"
+        android:textColor="#E8E8E8"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="138dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#6993BF"
+        android:fontFamily="@font/coolvetica_condensed"
+        android:text="Clear"
+        android:textColor="#E8E8E8"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.932" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="138dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#6993BF"
+        android:fontFamily="@font/coolvetica_condensed"
+        android:text="Search"
+        android:textColor="#E8E8E8"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.932" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

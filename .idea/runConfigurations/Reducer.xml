@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Reducer" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="ergasia.backend.Reducer.Reducer" />
+    <module name="katanemhmena" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

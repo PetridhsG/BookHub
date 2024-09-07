@@ -1,0 +1,52 @@
+
+ID  Action for Backend
+0   Add room
+1   Search room by filter (MapReduce)
+2   Add available dates for the rooms
+3   Reserve a room
+4   Rate a room
+
+Filter options for action 1:
+ID  Filter
+1   None
+2   Area
+3   Dates
+4   Number of people
+5   Price
+6   Stars
+
+App Actions
+Manager Actions
+Manager Action 1 Add rooms: Backend action 0
+Manager Action 2 Show your rooms : Backend action 1 with filter None (returns all rooms)
+Manager Action 3 Add available dates : Backend action 2 (roomName as argument)
+Manager Action 4 Show reservations : Backend action 1 (returns all rooms and show reservations for each room)
+Manager Action 5 Show statistics : Backend action 1 with filter None (returns all rooms and calculate statistics on them)
+
+Customer Actions
+Customer Action 1 Search room by filter : Backend action 1 with a filter given by the user (returns filtered rooms)
+Customer Action 2 Reserve a room : Backend action 3 (roomName,reservationName and dates as arguments)
+Customer Action 3 Rate a room : Backend action 4 (roomName and rating as arguments)
+
+Responses from backend actions
+Backend Action 0 / Manager Action 1 (Add rooms)
+No response
+
+Backend Action 1 / Manager Action 1,4,5 and Customer Action 1 (Search by filter)
+ArrayList<Room> rooms: A list that has the rooms by the filter option
+
+Backend Action 2 / Manager Action 3 (Add available dates)
+FinishCode 0 : Dates added successfully
+FinishCode 1 : Room wasn't found
+FinishCode 2 : Date already exists
+FinishCode 3 : Date intervenes another date
+
+Backend Action 3 / Customer Action 2 (Reserve a room)
+FinishCode 0 : Room reserved successfully
+FinishCode 1 : Room wasn't found
+FinishCode 2 : No available dates found
+FinishCode 3 : There are no available dates for this room
+
+Backend Action 4 / Customer Action 3 (Rate a room)
+FinishCode 0 : Rating submitted successfully
+FinishCode 1 : Room wasn't found

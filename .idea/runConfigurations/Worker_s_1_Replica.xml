@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Worker's 1 Replica" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="ergasia.backend.Worker.Worker" />
+    <module name="katanemhmena" />
+    <option name="PROGRAM_PARAMETERS" value="4" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

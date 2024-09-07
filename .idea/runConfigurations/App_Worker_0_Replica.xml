@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="App Worker 0 Replica" type="CompoundRunConfigurationType">
+    <toRun name="CustomerApp" type="Application" />
+    <toRun name="ManagerApp" type="Application" />
+    <toRun name="Master" type="Application" />
+    <toRun name="Reducer" type="Application" />
+    <toRun name="Worker 0" type="Application" />
+    <toRun name="Worker 1" type="Application" />
+    <toRun name="Worker 2" type="Application" />
+    <toRun name="Worker's 0 Replica" type="Application" />
+    <method v="2" />
+  </configuration>
+</component>

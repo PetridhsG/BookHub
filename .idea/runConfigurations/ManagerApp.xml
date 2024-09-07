@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ManagerApp" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="ergasia.backend.Manager.ManagerApp" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

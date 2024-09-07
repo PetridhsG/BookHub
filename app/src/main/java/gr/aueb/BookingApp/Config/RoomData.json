@@ -1,0 +1,119 @@
+{
+  "room1": {
+    "roomName": "Salonika Resort",
+    "price": 120,
+    "noOfPersons": 5,
+    "area": "SKG",
+    "stars": 3,
+    "noOfReviews": 15,
+    "dates": "from:2024-05-15/to:2024-05-22",
+    "reservations": "from:2024-03-15/to:2024-03-18/name:Kapoios foithths ths assoe",
+    "roomImage": "salonika_resort"
+  },
+  "room2": {
+    "roomName": "Sifis Hania Hostel",
+    "price": 160,
+    "noOfPersons": 3,
+    "area": "CHQ",
+    "stars": 3.6,
+    "noOfReviews": 39,
+    "dates": "from:2024-05-15/to:2024-05-22|from:2024-06-01/to:2024-06-10",
+    "reservations": "from:2024-02-11/to:2024-02-18/name:Kapoios allos foithths ths assoe",
+    "roomImage": "sifis_hania_hostel"
+  },
+  "room3": {
+    "roomName": "Menelaos Rooms to Let",
+    "price": 240,
+    "noOfPersons": 4,
+    "area": "VOL",
+    "stars": 4.1,
+    "noOfReviews": 7,
+    "dates": "",
+    "reservations": "",
+    "roomImage": "menelaos_rooms_to_let"
+  },
+
+  "room4": {
+    "roomName": "Dimitrooms",
+    "price": 60,
+    "noOfPersons": 4,
+    "area": "VOL",
+    "stars": 3.9,
+    "noOfReviews": 23,
+    "dates": "from:2024-05-15/to:2024-05-22|from:2024-06-01/to:2024-06-10|from:2024-07-02/to:2024-07-10",
+    "reservations": "from:2024-01-15/to:2024-01-22/name:Kapoios foithths ths assoe|from:2024-02-15/to:2024-02-20/name:Kapoios allos|from:2024-03-15/to:2024-03-20/name:Enas allos foithths ths assoe",
+    "roomImage": "dimitrooms"
+  },
+
+  "room5": {
+    "roomName": "Petridakos Apts",
+    "price": 600,
+    "noOfPersons": 2,
+    "area": "KVA",
+    "stars": 4.9,
+    "noOfReviews": 10,
+    "dates": "from:2024-05-15/to:2024-05-22|from:2024-06-01/to:2024-06-10|from:2024-07-02/to:2024-07-10",
+    "reservations": "",
+    "roomImage": "petridakos_apts"
+  },
+
+  "room6": {
+    "roomName": "ParkHotel",
+    "price": 80,
+    "noOfPersons": 3,
+    "area": "ATH",
+    "stars": 4.5,
+    "noOfReviews": 45,
+    "dates": "from:2024-05-15/to:2024-05-22|from:2024-06-01/to:2024-06-10|from:2024-07-02/to:2024-07-10",
+    "reservations": "from:2024-03-15/to:2024-03-18/name:Kapoios foithths ths assoe",
+    "roomImage": "parkhotel"
+  },
+
+  "room7": {
+    "roomName": "Gkiocash Villa",
+    "price": 420,
+    "noOfPersons": 8,
+    "area": "JMK",
+    "stars": 4.4,
+    "noOfReviews": 31,
+    "dates": "from:2024-05-15/to:2024-05-22",
+    "reservations": "from:2024-04-15/to:2024-04-20/name:Kapoios|from:2024-05-15/to:2024-05-20/name:Kapoios allos",
+    "roomImage": "gkiocash_villa"
+  },
+
+  "room8": {
+    "roomName": "Kypseli City Hotel",
+    "price": 120,
+    "noOfPersons": 5,
+    "area": "ATH",
+    "stars": 3.7,
+    "noOfReviews": 97,
+    "dates": "from:2024-05-15/to:2024-05-22|from:2024-06-01/to:2024-06-10|from:2024-07-02/to:2024-07-10",
+    "reservations": "",
+    "roomImage": "kypseli_city_hotel"
+  },
+
+  "room9": {
+    "roomName": "AUEB Rooms",
+    "price": 45,
+    "noOfPersons": 2,
+    "area": "ATH",
+    "stars": 2.3,
+    "noOfReviews": 1202,
+    "dates": "",
+    "reservations": "from:2024-04-15/to:2024-04-20/name:Kapoios|from:2024-05-15/to:2024-05-20/name:Kapoios allos",
+    "roomImage": "aueb_rooms"
+  },
+
+  "room10": {
+    "roomName": "Villa Kefalas",
+    "price": 550,
+    "noOfPersons": 12,
+    "area": "SKG",
+    "stars": 4.2,
+    "noOfReviews": 345,
+    "dates": "from:2024-05-15/to:2024-05-22|from:2024-06-01/to:2024-06-10|from:2024-07-02/to:2024-07-10",
+    "reservations": "from:2024-03-15/to:2024-03-18/name:Kapoios foithths ths assoe|from:2024-02-11/to:2024-02-18/name:Kapoios allos foithths ths assoe",
+    "roomImage": "villa_kefalas"
+  }
+}
